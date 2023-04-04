@@ -1,0 +1,19 @@
+﻿<Window x:Class="KursNaZapad.Rules"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:KursNaZapad"
+        mc:Ignorable="d"
+        Title="Rules" Height="450" Width="800"
+        ResizeMode="NoResize">
+    <Grid>
+        <Grid.Background>
+            <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                <GradientStop Color="#FF563EFF" Offset="0"/>
+                <GradientStop Color="White" Offset="1"/>
+            </LinearGradientBrush>
+        </Grid.Background>
+        <Label Content="Список правил игры:&#xD;&#xA;&#xD;&#xA;1) В любом режиме слово должно начинаться с маленькой буквы.&#xD;&#xA;2) Слова вводимые игроком и ботом не могут повторяться.&#xD;&#xA;3) Записывайте в базу слов только те слова в орфографии которых&#xD;&#xA;   вы уверены.&#xD;&#xA;4) Если вы вдруг засорили базы слов вы можете её почистить,&#xD;&#xA;   файлы баз слов называются: &#xD;&#xA;   &quot;1.txt&quot;-Стандартный режим&#xD;&#xA;   &quot;2.txt&quot;-Города&#xD;&#xA;   &quot;3.txt&quot;-Имена&#xD;&#xA;   и находятся в папке&#xD;&#xA;   KursNaZapad/KursNaZapad/bin/Debug/net6.0-windows/&#xD;&#xA;5) Победа засчитывается если в базе данных закончится весь запас&#xD;&#xA;   слов." HorizontalAlignment="Center" VerticalAlignment="Center" Height="285" Width="480" Background="White" FontFamily="Cascadia Mono SemiBold"/>
+    </Grid>
+</Window>
